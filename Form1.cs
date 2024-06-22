@@ -211,51 +211,11 @@ namespace Tic_Tac_Toe_More_Optimized_Solution
                 endGame(); 
             }
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            changeImage(button1);
-        }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-            changeImage(button2);
+            changeImage((Button)sender);
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            changeImage(button3);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            changeImage(button4);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            changeImage(button5);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            changeImage(button6);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            changeImage(button7);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            changeImage(button8);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            changeImage(button9);
-        }
-
         private void resetButtons(Button btn) 
         {
             btn.BackColor = Color.Transparent;
